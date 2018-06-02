@@ -1,0 +1,82 @@
+main {
+    padding-top30px;
+}
+
+/*header*/
+header .navbar {
+    border-radius:0;
+}
+
+/*nganimate*/
+/*show and hide*/
+.show-hide-message.ng-hide-remove {
+    -webkit-animation:zoomIn 0.3s both ease;
+    -moz-animation:zoomIn 0.3 both ease;
+    animation:zoomIn 0.3s both ease;
+}
+
+/*animation*/
+.spinner {
+    -webkit-animation:spin 1s infinite;
+    -moz-animation:1s infinite;
+    animation:1s infinite;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@-webkit-keyframes spin {
+    from {-webkit-transform:rotate(0deg);}
+    to {-webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+    from {-moz-transform:rotate(0deg);}
+    to {-moz-transform:rotate(360deg);}
+}
+
+/*social media buttons*/
+.facebookbtn {
+    padding: 20px 40px;
+    border-color: #FF6347;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FF6347;
+}
+
+.twitterbtn {
+    padding: 20px 40px;
+    border-color: #00FF7F;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #00FF7F;
+}
+
+.googlebtn {
+    padding: 20px 40px;
+    border-color: #4682B4;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #4682B4;
+}
+
+.social-icons {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
